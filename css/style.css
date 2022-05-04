@@ -928,7 +928,7 @@ iframe{
 /* Inicio */
     .div__presentacion{
         background-image: url(../imagenes/pesasrusa.jfif);
-        background-attachment: fixed;
+        background-attachment: inherit;
         height: 500px;
         position: relative;
     }
