@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Link emojis -->
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+    <!-- Link fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title>Gym Shark - Nutrición</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <div>
+            <a class="header__marca" href="../index.html"> 
+                <img  class="header__logo" src="../imagenes/logo-va.jpeg" alt="Logotipo GymShark">
+            </a>
+            
+        </div>
+        <a href="#lateral" class="header__emoji">
+            <span class="jam jam-menu"></span>
+        </a>
+         
+        <nav class="nav" id="lateral">
+            <ul class="nav__lista">
+                <li class="nav__item">
+                    <a class="nav__enlace" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="./Entrenamientos.html">Entrenamientos</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="#">Nutrición</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="./Nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="./Contacto.html">Contacto</a>
+                </li>
+                <li class="nav__item nav__item--close" >
+                    <a class="nav__enlace" href="#"> <span class="jam jam-close"></span></a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="section1__nutricion">
+            <h2 class="nutricion__titulo">Nutrición</h2>
+            
+            <p class="nutricion__parrafo">Gym Shark se basa en la busqueda de un equilibrio para nuestro bienestar. No solo logramos en nuestros clientes una buena figura, sino incalcamos habitos que nos garantizarán una salud plena.</p>
+
+
+        </section>
+        <section class="section2__nutricion">
+            <Div>
+                <p class="nutricion__parrafo-2">Ademas de una variada lista de actividades a realizar contamos con nuestro sector de Nutrición.</p>
+
+                <h4 class="nutricion__titulo-2">Si te interesa obtener una dieta adecuada a vos, llena el formulario y nos contactaremos a la brevedad!</h4>
+            
+            </Div> 
+<!-- 
+            <form class="nutricion__form" >
+                <div>
+                    <label class="nutricion__form-label" for="nombre">Nombre completo</label>
+                    <input class="nutricion__form-input" type="text" id="nombre" name="nombre" placeholder="Ingresar su nombre completo">
+                </div>
+                <div>
+                    <label class="nutricion__form-label" for="edad">Edad</label>
+                    <input class="nutricion__form-input" type="number" name="edad" id="edad" placeholder="Ingresar su edad">
+                </div>
+                <div>
+                    <label class="nutricion__form-label" for="peso">Peso</label>
+                    <input class="nutricion__form-input" type="number" id="peso" name="peso" placeholder="ingresar su peso">
+                </div>
+                <div>
+                    <label class="nutricion__form-label" for="altura">Altura</label>
+                    <input class="nutricion__form-input" type="number" id="altura" name="altura" placeholder="ingresar su altura">
+                </div>
+                <div>
+                    <label class="nutricion__form-label" for="correo">Email</label>
+                    <input class="nutricion__form-input" type="email" id="correo" name="correo" placeholder="Ingresar su correo">
+                </div>
+                <div>
+                    <label class="nutricion__form-label" for="telefono">Telefono</label>
+                    <input class="nutricion__form-input" type="number" id="telefono" name="telefono" placeholder="Ingresar su telefono">
+                </div>
+                <div>
+                <label class="nutricion__form-label" for="femenino">Femenino:</label>
+                <input class="nutricion__form-input" type="radio" name="genero" id="femenino">
+
+                <label class="nutricion__form-label" for="masculino">Masculino:</label>
+                <input class="nutricion__form-input" type="radio" name="genero" id="masculino">
+                
+                </div>
+                <div>
+                    <label class="nutricion__form-label" for="objetivo">Objetivo:</label>
+                    <textarea class="nutricion__form-input" placeholder="Ingrese aqui su objetivo" name="objetivo" id="objetivo" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button class="nutricion__form-button">Enviar</button>
+                </div>
+            </form> -->
+
+            <div class="nutricion-formulario">
+
+                <div class="nutricion-form">
+                    <!-- <h3>Contactanos</h3> -->
+                    <form>
+                        <p>
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" name="nombre" id="nombre"  placeholder="Escriba aqui su nombre">
+                        </p>
+                        <p>
+                            <label  for="edad">Edad</label>
+                            <input  type="number" name="edad" id="edad" placeholder="Ingresar su edad">
+                        </p>
+                        <p>
+                            <label for="peso">Peso</label>
+                            <input type="number" id="peso" name="peso" placeholder="ingresar su peso">
+                        </p>
+                        <p>
+                            <label for="altura">Altura</label>
+                            <input type="number" id="altura" name="altura" placeholder="ingresar su altura">
+                        
+                        </p>
+                        <p>
+                            <label for="correo">Email</label>
+                            <input type="email" id="correo" name="correo" placeholder="Ingresar su correo">
+                        
+                        </p>
+                        <p>
+                            <label for="telefono">Telefono</label>
+                            <input type="number" id="telefono" name="telefono" placeholder="Ingresar su telefono">
+                        
+                        </p>
+                        <p>
+                            <label for="femenino">Femenino:</label>
+                            <input type="radio" name="genero" id="femenino">
+                        
+                        </p>
+                        <p>
+                            <label for="masculino">Masculino:</label>
+                            <input type="radio" name="genero" id="masculino">
+                        
+                        </p>
+                        
+                        <p class="block">
+                            <label for="objetivo">Objetivo:</label>
+                            <textarea  placeholder="Ingrese aqui su objetivo" name="objetivo" id="objetivo" cols="30" rows="10"></textarea>
+                        </p>
+                        <p class="block">
+                            <button type="submit">Enviar</button>
+                        </p>
+                    </form>
+
+                </div>
+                    
+            </div>
+
+
+
+        </section>
+    </main>
+    
+
+    <footer class="footer">
+
+        <ul class="footer__lista">
+            <li class="lista__item">
+                <a class="lista__enlace" href="../index.html">Inicio</a>
+            </li>
+            <li class="lista__item">
+                <a class="lista__enlace" href="./Entrenamientos.html">Entrenamientos</a>
+            </li>
+            <li class="lista__item">
+                <a class="lista__enlace" href="#">Nutrición</a></li>
+            <li class="lista__item">
+                <a class="lista__enlace" href="./Nosotros.html">Nosotros</a>
+            </li>
+            <li class="lista__item">
+                <a class="lista__enlace" href="./Contacto.html">Contacto</a>
+            </li>
+        </ul>
+        <div class="footer__marca">
+            <img class="footer__logo" src="../imagenes/logo-va.jpeg" alt="Logotipo GymShark">
+        </div>
+       
+        <ul class="lista__redes">
+            <li class="lista__redes-items">
+                <a  class="lista__redes-subrayado" href="https://web.whatsapp.com/" target="blank">
+                    <span class="lista__redes-emoji jam jam-whatsapp"></span>
+                </a>
+                
+            </li> 
+            
+            <li class="lista__redes-items">
+                <a class="lista__redes-subrayado"  href="https://www.instagram.com/" target="blank">
+                    <span class="lista__redes-emoji jam jam-instagram"></span>
+                </a>
+                
+            </li> 
+            
+            <li class="lista__redes-items">
+                <a class="lista__redes-subrayado"  href="https://www.facebook.com/home.php" target="blank">
+                    <span class="lista__redes-emoji jam jam-facebook"></span>
+                </a>
+                
+            </li> 
+             
+        </ul>
+
+    </footer>
+
+</body>
+</html>
