@@ -782,7 +782,7 @@ iframe{
         height: auto;
     }
     .imagen{
-        height: 590px;
+        height: 400px;
     }
     .presentacion__titulo{
         font-size: 50px;
@@ -920,15 +920,15 @@ iframe{
 
 /* Inicio */
     .imagen{
-        height: 500px;
+        height: 350px;
     }
-    .div__presentacion{
+    /* .div__presentacion{
         background-image: url(../imagenes/pesasrusa.jfif);
         background-attachment: inherit;
         height: 500px;
         position: relative;
-    }
-    .div__presentacion::before{
+    } */
+    /* .div__presentacion::before{
         content: "";
         width: 100%;
         height: 500px;
@@ -938,11 +938,10 @@ iframe{
         background: linear-gradient(90deg, #1e1e1e, #1e1e1e );
     
         opacity: 0.3;
-    }
-    .presentacion__titulo{
-        /* font-size: 45px; */
+    } */
+    /* .presentacion__titulo{
         bottom: 2rem;
-    }
+    } */
     .seccion{
         flex-direction: column;
         gap: 2rem;
