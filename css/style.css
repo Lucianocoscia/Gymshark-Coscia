@@ -47,6 +47,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 0;
 }
 .nav__item--close{
     display: none;
@@ -67,7 +68,8 @@ body{
 }
 
 /* Inicio */
-.div__presentacion{
+
+/* .div__presentacion{
     height: 650px;
 }
 
@@ -79,7 +81,7 @@ body{
     bottom: 4rem;
 
     position: absolute;
-}
+} */
 .seccion{
     margin-bottom: 5rem;
     margin-left: 5%;
@@ -176,6 +178,7 @@ body{
     color: white;
     text-decoration: none;
     font-size: 22px;
+    padding: 0;
 }
 
 .footer__marca{
@@ -385,6 +388,7 @@ body{
     width: 600px;
     height: 400px;
 }
+
 
 /* Nutrición */
 .section1__nutricion{
@@ -759,6 +763,15 @@ iframe{
 /* Modificando estilos bootstrap */
 .presentacion{
     height: 590px;
+}
+table {
+    text-align: center;
+    border-collapse: inherit;
+}
+tbody, td, tfoot, th, thead, tr{
+    border-color: inherit;
+    border-style: solid;
+    border-width: 1px;
 }
 
 
