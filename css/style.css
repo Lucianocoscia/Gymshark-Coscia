@@ -68,21 +68,7 @@ body{
 
 /* Inicio */
 .div__presentacion{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
-
-    position: relative;
-    width: 100%;
     height: 650px;
-    margin-bottom: 4rem;
-
-    background-image: url(../imagenes/gymsharkpresentacion.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
 }
 
 .presentacion__titulo{
@@ -770,6 +756,10 @@ iframe{
 
 }
 
+/* Modificando estilos bootstrap */
+.presentacion{
+    height: 590px;
+}
 
 
 @media screen and (max-width:1023px){ /* Tablet */
@@ -786,10 +776,13 @@ iframe{
     .footer__marca{
         display: none;
     }
+
 /* Inicio */
-    .div__presentacion{
-        background-position: center;
-        background-attachment: inherit;
+    .presentacion{
+        height: auto;
+    }
+    .imagen{
+        height: 590px;
     }
     .presentacion__titulo{
         font-size: 50px;
@@ -926,6 +919,9 @@ iframe{
     }
 
 /* Inicio */
+    .imagen{
+        height: 500px;
+    }
     .div__presentacion{
         background-image: url(../imagenes/pesasrusa.jfif);
         background-attachment: inherit;
