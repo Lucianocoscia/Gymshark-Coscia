@@ -9,8 +9,6 @@ body{
     color: white;
 }
 
-    
-
 .body__inicio{
     background-color: black ;
 }
@@ -57,9 +55,11 @@ body{
     margin-left: 16px;
 }
 .nav__item:hover{
-    background-color: rgba(29, 29, 29, 0.77) ;
+    background-color:rgba(0, 0, 0, 0.8);
     border-radius: 3px;
     color: #fff;
+    box-shadow: 0 0 10px #b70e21;
+    transition: .7s;
 }
 .nav__enlace{
     text-decoration: none;
@@ -194,6 +194,12 @@ body{
     color: white;
     font-size: 3rem;
 }
+.lista__redes-emoji:hover {
+    box-shadow: 0 0 15px  #b70e21;
+    border-radius: 10px;
+    transition: .5s;
+}
+
 .lista__redes-subrayado{
     text-decoration: none;
 }
@@ -631,7 +637,6 @@ table {
     margin: 1rem;
     font-size: 2rem;
 }
-
 iframe{
     width: 500px;
     height: 400px;
@@ -777,7 +782,7 @@ dl, ol, ul {
     color: #fff;
 }
 .lista__enlace:hover{
-    color: #fff;
+    color: #b70e21;
     opacity: 1;
 }
 
