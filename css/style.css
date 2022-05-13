@@ -237,7 +237,7 @@ body{
     margin-top: 1rem;
     margin-left: 1.5rem;
 
-    transition: transform .4s;
+    transition: transform .8s;
 }
 .grid__div:hover{
     transform: scale(1.03);
