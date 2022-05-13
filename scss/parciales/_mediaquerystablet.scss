@@ -1,0 +1,107 @@
+@media screen and (max-width:1023px){ /*  Tablet */ 
+    /* Header */
+        .header{
+            flex-direction: column;
+        }
+        
+        .header__emoji{
+            display: none;
+        }
+        .nav__item--close{
+            display: none;
+        }
+        .footer__marca{
+            display: none;
+        }
+    
+    /* Inicio */
+        .presentacion{
+            height: auto;
+        }
+        .imagen{
+            height: 400px;
+        }
+        .presentacion__titulo{
+            font-size: 50px;
+        }
+        .seccion{
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
+        }
+        .seccion__unidades-1{
+            width: 32%;
+        }
+        .seccion__unidades-2{
+            width: 32%;
+        }
+        .seccion__unidades-3{
+            width: 32%;
+        }
+    /* Entrenamientos */
+        .grid__section1{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .grid__div{
+            justify-self: center;
+            margin-bottom: 1rem;
+        }
+        .div__titulo{
+            width: 90%;
+        }
+        .div__parrafo{
+            padding-right: 7rem;
+    
+        }
+        .div__span {
+            padding-right: 2rem;
+        }
+        .section2__tabla{
+            width: 100%;
+        }
+    
+    /* Nutricion */
+        .section1__nutricion{
+            background-attachment: inherit;
+            height: 450px;
+        }
+        .section1__nutricion::before{
+            height: 450px;
+        }
+        .nutricion__titulo{
+            font-size: 64px;
+        }
+        .nutricion__parrafo{
+            font-size: 30px;
+        }
+        .section2__nutricion{
+            margin-left: 5%;
+            margin-right: 5%;
+            width: 90%;
+        }
+        .nutricion__parrafo-2{
+            font-size: 28px;
+            text-align: center;
+            padding: 1rem;
+        }
+        .nutricion__form{
+            width: 100%;
+        }
+    
+    /* Nosotros */
+        .nosotros__titulo{
+            position: relative;
+            font-size: 50px;
+        }
+        .nosotros__titulos {
+            font-size: 35px;
+        }
+        .nosotros__parrafos{
+            margin-inline: 1rem;
+        }
+    /* Contacto */
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+    }
+    }

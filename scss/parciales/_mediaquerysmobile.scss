@@ -1,0 +1,235 @@
+@media screen and (max-width:600px) { /* Mobile */
+
+
+    /* Header */
+        .header{
+            flex-direction: row;
+        }
+        .nav{
+            display: block;
+            padding: 0;
+        }
+        .header__emoji{
+            display: block;
+            font-size: 4rem;
+            color: white;
+            text-decoration: none;
+        }
+        #lateral {
+            display: block;
+            background-color: rgba(0, 0, 0, 0.8);
+            width: 80%;
+            height: 100vh;
+    
+            position: fixed;
+            top: 0;
+            right: -100%;
+            z-index: 100 ;
+    
+            transition: right 1s;
+        }
+        #lateral:target{
+            right: 0;
+        }
+        .nav__lista{
+            flex-direction: column;
+            height: 100%;
+            justify-content: flex-start;
+            gap: 1rem;
+            padding: 0.5rem;
+        }
+        .nav__item--close{
+            display: block;
+        }
+        .nav__item{
+            margin-left: 0;
+        }
+        .nav__enlace{
+            font-size: 28px;
+        }
+        .footer{
+            width: 100%;
+        }
+    
+    /* Inicio */
+        .imagen{
+            height: 350px;
+            background: linear-gradient(90deg, #1e1e1e , #1e1e1e   );
+        
+            opacity: 0.8;
+        }
+        .d-none {
+            display: block!important;
+        }
+        .titulo__carrusel{
+            font-size: 26px;
+        }
+        .seccion{
+            flex-direction: column;
+            gap: 2rem;
+        }
+        .seccion__unidades-1{
+            width: 90%;
+        }
+        .seccion__unidades-2{
+            width: 90%;
+        }
+        .seccion__unidades-3{
+            width: 90%;
+        }
+        .unidad__titulo{
+            font-size: 40px;
+        }
+        .footer__marca{
+            display: none;
+        }
+        .lista__enlace{
+            font-size: 24px;
+        }
+        .lista__redes{
+            flex-direction: column;
+        }
+        .lista__redes-emoji{
+    
+            font-size: 2rem;
+        }
+        .lista__redes-items{
+            margin: 0;
+            padding: 0.5rem;
+        }
+    
+        
+    /* Entrenamientos */
+        .section1__titulo{
+            font-size: 45px;
+        } 
+        .grid__section1{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .grid__div{
+            justify-self: center;
+            margin-bottom: 1rem;
+            margin-left: 0;
+            margin-top: 1rem;
+            width: 90%;
+            gap: 1rem;
+    
+        }
+        .seccion__titulo{
+            margin-left: 5%;
+            margin-right: 5%;
+            width: 90%;
+        }
+        .section1__titulo{
+            padding: 1rem;
+        }
+        .grid__section1{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .div__titulo{
+            margin-left: 0;
+            width: 100%;
+        }
+        .div__parrafo{
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+    
+            font-size: 18px;
+        }
+        .div__parrafo{
+            padding-right: 0;
+    
+        }
+        .div__span {
+            padding-right: 0;
+        }
+        .section2{
+            margin-left: 5%;
+            margin-right: 5%;
+            width: 90%;
+        }
+        .section2__titulo {
+            font-size: 30px;
+    
+        }
+        .section2__tabla{
+            width: 80%;
+    
+            font-size: 13px;
+        }
+    
+    /* Nutricion */
+        .section1__nutricion{
+            height: 500px;
+            background-position: top;
+        }
+        .section1__nutricion::before{
+            height: 500px;
+        }
+        .nutricion__titulo{
+            font-size: 50px;
+        }
+        .nutricion__parrafo{
+            margin-top: 11rem;
+            width: 100%;
+            font-size: 22px;
+        }
+        .section2__nutricion{
+            margin-top: 2rem;
+        }
+        .nutricion__parrafo-2{
+            font-size: 24px;
+        }
+        .nutricion__titulo-2{
+            font-size: 24px;
+        }
+        .seccion2__grid{
+            grid-template-columns: repeat(1,1fr);
+            grid-template-areas:
+            "ele8 ele6 ele5"
+            ". ele7 ele3"
+            "ele1 ele9 ele2";
+        }
+        .nutricion-form form {
+            display: flex;
+            flex-direction: column;
+        }
+    
+    /* Nosotros */
+        .nosotros__titulo{
+            font-size: 40px;
+        }
+        .nosotros__titulos{
+            font-size:32px ;
+        }
+        .nosotros__parrafos{
+            font-size: 24px;
+        }
+        .seccion2__grid {
+            margin-left: 5%;
+            margin-right: 5%;
+            width: 90%;
+        }
+    
+    
+        iframe{
+            width: 100%;
+        }
+    /* Contacto */
+        .contact-formulario{
+            box-shadow:0 0 20px 0 rgba(255, 255, 255, .3) ;
+            padding: 1em;
+            display: block;
+        }
+        .contact-info h4,
+        .contact-info ul,
+        .contact-info p {
+            text-align: center;
+        }
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+    }    
