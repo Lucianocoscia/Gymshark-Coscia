@@ -14,39 +14,35 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
-
-    .section1__nutricion::before{
-        content: "";
-        width: 100%;
-        height: 650px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: linear-gradient(90deg, #1e1e1e, #1e1e1e );
-    
-        opacity: 0.5;
-    }
-
-    .nutricion__titulo{
-        font-size: 70px;
-        text-align: center;
-        margin-bottom: 10rem;
-        position: absolute;
-    }
-    
-    .nutricion__parrafo{
-        color: white;
-        text-align: center;
-        font-size: 32px;
-        width: 90%;
-        margin-top: 10rem;
-        
-        position: absolute;
-    }
 }
 
+.section1__nutricion::before{
+    content: "";
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #1e1e1e, #1e1e1e );
 
+    opacity: 0.5;
+}
+.nutricion__titulo{
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 10rem;
+    position: absolute;
+}
 
+.nutricion__parrafo{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    width: 90%;
+    margin-top: 10rem;
+    
+    position: absolute;
+}
 
 .section2__nutricion{
     background-color: black;
