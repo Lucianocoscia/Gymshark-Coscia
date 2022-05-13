@@ -1,7 +1,7 @@
 /* Footer */
 
 .footer{
-    background-color: black;
+    background-color: $BackgroundColor;
     width: 100%;
     padding: 1rem;
 
@@ -11,11 +11,11 @@
     align-items: flex-end;
 
 
-    .footer__marca{
+    &__marca{
         height: 150px;
     }
 
-    .footer__logo{
+    &__logo{
         height: 100%;
     }
 
@@ -25,7 +25,7 @@ ul{
         list-style-type: none;
     }
     .lista__enlace{
-        color: white;
+        color:$Color-LetraPrincipal;
         text-decoration: none;
         font-size: 22px;
         padding: 0;
@@ -39,21 +39,21 @@ ul{
     justify-content: space-between;
     align-items: flex-end;
 
-    .lista__redes-items{
+    &-items{
         margin: 1rem;
         list-style-type: none;
     }
-    .lista__redes-emoji{
-        color: white;
+    &-emoji{
+        color: $Color-LetraPrincipal;
         font-size: 3rem;
     }
-    .lista__redes-emoji:hover {
-        box-shadow: 0 0 15px  #b70e21;
+    &-emoji:hover {
+        box-shadow:$Sombreado-Navs;
         border-radius: 10px;
         transition: .5s;
     }
     
-    .lista__redes-subrayado{
+    &-subrayado{
         text-decoration: none;
     }
 

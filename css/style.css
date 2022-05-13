@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* Como creo una variable en SASS */
+/* $miVariable1: valorReutilizar ; -> Sintaxis de como escribir uuna variable */
 * {
   padding: 0;
   margin: 0;
@@ -12,13 +14,13 @@ body {
 }
 
 .body__inicio {
-  background-color: black;
+  background-color: Black;
 }
 
 /* Header */
 .header {
   margin-top: 0;
-  background-color: black;
+  background-color: Black;
   padding: 1rem;
   width: 100%;
   display: flex;
@@ -30,7 +32,7 @@ body {
   top: 0;
 }
 
-.header .header__logo {
+.header__logo {
   width: 230px;
 }
 
@@ -52,7 +54,7 @@ body {
 
 .nav__enlace {
   text-decoration: none;
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   font-size: 24px;
 }
@@ -76,7 +78,7 @@ body {
 
 /* Footer */
 .footer {
-  background-color: black;
+  background-color: Black;
   width: 100%;
   padding: 1rem;
   display: flex;
@@ -85,11 +87,11 @@ body {
   align-items: flex-end;
 }
 
-.footer .footer__marca {
+.footer__marca {
   height: 150px;
 }
 
-.footer .footer__logo {
+.footer__logo {
   height: 100%;
 }
 
@@ -98,7 +100,7 @@ ul .lista__item {
 }
 
 ul .lista__enlace {
-  color: white;
+  color: #fff;
   text-decoration: none;
   font-size: 22px;
   padding: 0;
@@ -112,23 +114,23 @@ ul .lista__enlace {
   align-items: flex-end;
 }
 
-.lista__redes .lista__redes-items {
+.lista__redes-items {
   margin: 1rem;
   list-style-type: none;
 }
 
-.lista__redes .lista__redes-emoji {
-  color: white;
+.lista__redes-emoji {
+  color: #fff;
   font-size: 3rem;
 }
 
-.lista__redes .lista__redes-emoji:hover {
-  box-shadow: 0 0 15px  #b70e21;
+.lista__redes-emoji:hover {
+  box-shadow: 0 0 10px #b70e21;
   border-radius: 10px;
   transition: .5s;
 }
 
-.lista__redes .lista__redes-subrayado {
+.lista__redes-subrayado {
   text-decoration: none;
 }
 
@@ -144,7 +146,7 @@ ul .lista__enlace {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
+  background-color: Black;
 }
 
 .seccion__unidades-1 {
@@ -212,7 +214,7 @@ ul .lista__enlace {
   margin-right: 10%;
   margin-top: 1rem;
   width: 80%;
-  background-color: black;
+  background-color: Black;
 }
 
 .section1__titulo {
@@ -225,7 +227,7 @@ ul .lista__enlace {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 1rem;
-  background-color: black;
+  background-color: Black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -347,7 +349,7 @@ ul .lista__enlace {
 
 /* Comienzo de seccion dos de entrenamientos */
 .section2 {
-  background-color: black;
+  background-color: Black;
   min-height: 500px;
   margin-left: 10%;
   margin-right: 10%;
@@ -359,24 +361,24 @@ ul .lista__enlace {
   align-items: center;
 }
 
-.section2 .section2__titulo {
+.section2__titulo {
   text-align: center;
 }
 
-.section2 .section2__tabla {
+.section2__tabla {
   width: 600px;
   height: 400px;
 }
 
 table {
   box-shadow: 0 0 20px 0 rgba(157, 140, 140, 0.3);
-  background-color: black;
+  background-color: Black;
   border-color: #b70e21;
 }
 
 /* Nutrición */
 .section1__nutricion {
-  background-color: black;
+  background-color: Black;
   height: 650px;
   width: 100%;
   display: flex;
@@ -409,7 +411,7 @@ table {
 }
 
 .nutricion__parrafo {
-  color: white;
+  color: #fff;
   text-align: center;
   font-size: 32px;
   width: 90%;
@@ -418,7 +420,7 @@ table {
 }
 
 .section2__nutricion {
-  background-color: black;
+  background-color: Black;
   min-height: 650px;
   margin-left: 10%;
   margin-right: 10%;
@@ -453,7 +455,7 @@ table {
 }
 
 .nutricion-form {
-  background-color: black;
+  background-color: Black;
   padding: 2em;
 }
 
@@ -510,7 +512,7 @@ table {
   margin-bottom: 2rem;
   min-height: 500px;
   width: 80%;
-  background-color: black;
+  background-color: Black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -587,7 +589,7 @@ table {
   margin-bottom: 4rem;
   min-height: 500px;
   width: 80%;
-  background-color: black;
+  background-color: Black;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -613,14 +615,14 @@ iframe {
   margin-bottom: 1rem;
   min-height: 500px;
   width: 80%;
-  background-color: black;
+  background-color: Black;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .contenedor {
-  background-color: black;
+  background-color: Black;
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
@@ -646,7 +648,7 @@ iframe {
 }
 
 .contact-form {
-  background-color: black;
+  background-color: Black;
   padding: 2em;
 }
 

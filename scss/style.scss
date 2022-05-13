@@ -1,6 +1,11 @@
 // Este es mi archivo principal de SASS
 // Importando todos los parciales de mis estilos
 
+
+
+
+@import "parciales/_variables.scss";
+
 @import "parciales/_parcial.scss";
 @import "parciales/_header.scss";
 @import "parciales/_footer.scss";

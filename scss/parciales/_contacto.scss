@@ -7,7 +7,7 @@
     min-height: 500px;
     width: 80%;
 
-    background-color: black;
+    background-color: $BackgroundColor;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@
 //     padding-bottom: 1rem;
 // }
 .contenedor{
-    background-color: black;
+    background-color: $BackgroundColor;
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
@@ -43,13 +43,13 @@
 }
 
 .contact-formulario{
-    box-shadow:0 0 20px 0 rgba(157, 140, 140, 0.3) ;
+    box-shadow:$Box-ShadowForms ;
     /* padding: 2em; */
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 .contact-form{
-    background-color:black;
+    background-color:$BackgroundColor;
     padding: 2em;
 }
 .contact-form form {
@@ -85,7 +85,7 @@
     background: none;
     border-bottom: 1px solid #d63031;
     outline: none;
-    color: #fff;
+    color: $Color-LetraPrincipal;
 }
 .contact-form form button {
     background: #b70e21;

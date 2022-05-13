@@ -8,7 +8,7 @@
     min-height: 500px;
     width: 80%;
 
-    background-color: black;
+    background-color: $BackgroundColor;
 
     display: flex;
     flex-direction: column;
@@ -105,7 +105,7 @@
     min-height: 500px;
     width: 80%;
 
-    background-color: black;
+    background-color: $BackgroundColor;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

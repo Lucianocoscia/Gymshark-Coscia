@@ -20,7 +20,7 @@ dl, ol, ul {
 }
 
 .nav__enlace:hover{
-    color: #fff;
+    color: $Color-LetraPrincipal;
 }
 .lista__enlace:hover{
     color: #b70e21;
@@ -39,23 +39,23 @@ dl, ol, ul {
 .accordion-button{
     border-radius: 4px;
     background-color: #000;
-    color: #fff;
+    color:$Color-LetraPrincipal;
     text-align: center;
-    box-shadow:0 0 20px 0 rgba(157, 140, 140, 0.3) ;
+    box-shadow:$Box-ShadowForms ;
     font-size: 2rem;
     font-weight: 600;
 }
 .accordion-button:focus {
     z-index: 0;
     background-color: #000;
-    color: #fff;
-    box-shadow:0 0 20px 0 rgba(157, 140, 140, 0.3) ;
+    color:$Color-LetraPrincipal;
+    box-shadow:$Box-ShadowForms ;
 }
 
 .accordion-button:not(.collapsed) {
     color: #fff;
     background-color: #000;
-    box-shadow:0 0 20px 0 rgba(157, 140, 140, 0.3) ;
+    box-shadow:$Box-ShadowForms ;
 }
 .accordion-body{
     font-size: 20px;

@@ -1,6 +1,6 @@
 /* Nutrición */
 .section1__nutricion{
-    background-color: black;
+    background-color: $BackgroundColor;
     height: 650px;
     width: 100%;
 
@@ -35,7 +35,7 @@
 }
 
 .nutricion__parrafo{
-    color: white;
+    color: $Color-LetraPrincipal;
     text-align: center;
     font-size: 32px;
     width: 90%;
@@ -45,7 +45,7 @@
 }
 
 .section2__nutricion{
-    background-color: black;
+    background-color: $BackgroundColor;
     min-height: 650px;
     margin-left: 10%;
     margin-right: 10%;
@@ -72,14 +72,14 @@
 
 /* Formulario de nutricion */
 .nutricion-formulario{
-    box-shadow:0 0 20px 0 rgba(157, 140, 140, 0.3) ;
+    box-shadow:$Box-ShadowForms ;
     display: grid;
     grid-template-columns: 2fr;
     width: 100%;
     margin-top: 2rem;
 }
 .nutricion-form{
-    background-color:black;
+    background-color:$BackgroundColor;
     padding: 2em;
 
 }
@@ -118,7 +118,7 @@
     background: none;
     border-bottom: 1px solid #d63031;
     outline: none;
-    color: #fff;
+    color: $Color-LetraPrincipal;
 }
 .nutricion-form form button {
     background: #b70e21;
