@@ -30,11 +30,11 @@ body {
   top: 0;
 }
 
-.header__emoji {
+.header .header__emoji {
   display: none;
 }
 
-.header__logo {
+.header .header__logo {
   width: 230px;
 }
 
@@ -42,7 +42,7 @@ body {
   padding: 1rem;
 }
 
-.nav__lista {
+.nav .nav__lista {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -50,28 +50,28 @@ body {
   margin-bottom: 0;
 }
 
-.nav__item--close {
-  display: none;
+.nav .nav__enlace {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
 }
 
-.nav__item {
+.nav .nav__item {
   padding: 10px;
   margin-left: 16px;
 }
 
-.nav__item:hover {
+.nav .nav__item--close {
+  display: none;
+}
+
+.nav .nav__item:hover {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 3px;
   color: #fff;
   box-shadow: 0 0 10px #b70e21;
   transition: .7s;
-}
-
-.nav__enlace {
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-  font-size: 24px;
 }
 
 /* Footer */
@@ -85,24 +85,24 @@ body {
   align-items: flex-end;
 }
 
-.lista__item {
+.footer .footer__marca {
+  height: 150px;
+}
+
+.footer .footer__logo {
+  height: 100%;
+}
+
+ul .lista__item {
   list-style-type: none;
 }
 
-.lista__enlace {
+ul .lista__enlace {
   color: white;
   text-decoration: none;
   font-size: 22px;
   padding: 0;
   opacity: 0.8;
-}
-
-.footer__marca {
-  height: 150px;
-}
-
-.footer__logo {
-  height: 100%;
 }
 
 .lista__redes {
@@ -112,23 +112,23 @@ body {
   align-items: flex-end;
 }
 
-.lista__redes-items {
+.lista__redes .lista__redes-items {
   margin: 1rem;
   list-style-type: none;
 }
 
-.lista__redes-emoji {
+.lista__redes .lista__redes-emoji {
   color: white;
   font-size: 3rem;
 }
 
-.lista__redes-emoji:hover {
+.lista__redes .lista__redes-emoji:hover {
   box-shadow: 0 0 15px  #b70e21;
   border-radius: 10px;
   transition: .5s;
 }
 
-.lista__redes-subrayado {
+.lista__redes .lista__redes-subrayado {
   text-decoration: none;
 }
 
@@ -147,7 +147,7 @@ body {
   background-color: black;
 }
 
-.seccion__unidades-1 {
+.seccion .seccion__unidades-1 {
   opacity: 0.7;
   width: 30%;
   display: flex;
@@ -157,11 +157,11 @@ body {
   position: relative;
 }
 
-.seccion__unidades-1:hover {
+.seccion .seccion__unidades-1 .seccion__unidades-1:hover {
   opacity: 1;
 }
 
-.seccion__unidades-2 {
+.seccion .seccion__unidades-2 {
   width: 30%;
   opacity: 0.7;
   display: flex;
@@ -171,11 +171,11 @@ body {
   position: relative;
 }
 
-.seccion__unidades-2:hover {
+.seccion .seccion__unidades-2 .seccion__unidades-2:hover {
   opacity: 1;
 }
 
-.seccion__unidades-3 {
+.seccion .seccion__unidades-3 {
   width: 30%;
   opacity: 0.7;
   display: flex;
@@ -185,7 +185,7 @@ body {
   position: relative;
 }
 
-.seccion__unidades-3:hover {
+.seccion .seccion__unidades-3 .seccion__unidades-3:hover {
   opacity: 1;
 }
 
@@ -215,7 +215,7 @@ body {
   background-color: black;
 }
 
-.section1__titulo {
+.seccion__titulo .section1__titulo {
   padding: 30px;
   text-align: center;
   font-size: 50px;
@@ -239,7 +239,7 @@ body {
   transition: transform .8s;
 }
 
-.grid__div:hover {
+.grid__div .grid__div:hover {
   transform: scale(1.03);
 }
 
@@ -250,17 +250,7 @@ body {
   height: 400px;
 }
 
-.div__parrafo {
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-  margin-left: 5rem;
-  text-align: center;
-  font-size: 20px;
-  line-height: 1.5;
-  width: 400px;
-}
-
-.div__titulo-1 {
+.div__titulo .div__titulo-1 {
   background-image: url(../imagenes/salon1.jfif);
   background-size: cover;
   background-repeat: no-repeat;
@@ -270,7 +260,7 @@ body {
   align-items: center;
 }
 
-.div__titulo-2 {
+.div__titulo .div__titulo-2 {
   background-image: url(../imagenes/funcional2.jfif);
   background-size: cover;
   background-repeat: no-repeat;
@@ -280,7 +270,7 @@ body {
   align-items: center;
 }
 
-.div__titulo-3 {
+.div__titulo .div__titulo-3 {
   background-image: url(../imagenes/pilates1.jfif);
   background-size: cover;
   background-repeat: no-repeat;
@@ -290,7 +280,7 @@ body {
   align-items: center;
 }
 
-.div__titulo-4 {
+.div__titulo .div__titulo-4 {
   background-image: url(../imagenes/yoga1.jfif);
   background-size: cover;
   background-repeat: no-repeat;
@@ -300,7 +290,7 @@ body {
   align-items: center;
 }
 
-.div__titulo-5 {
+.div__titulo .div__titulo-5 {
   background-image: url(../imagenes/crossfit.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -310,7 +300,7 @@ body {
   align-items: center;
 }
 
-.div__titulo-6 {
+.div__titulo .div__titulo-6 {
   background-image: url(../imagenes/gap.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -320,7 +310,7 @@ body {
   align-items: center;
 }
 
-.div__titulo-7 {
+.div__titulo .div__titulo-7 {
   background-image: url(../imagenes/zumba3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -330,7 +320,7 @@ body {
   align-items: center;
 }
 
-.div__titulo-8 {
+.div__titulo .div__titulo-8 {
   background-image: url(../imagenes/spinning.jfif);
   background-size: cover;
   background-repeat: no-repeat;
@@ -338,6 +328,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.div__parrafo {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 400px;
 }
 
 .div__span {
@@ -359,11 +359,11 @@ body {
   align-items: center;
 }
 
-.section2__titulo {
+.section2 .section2__titulo {
   text-align: center;
 }
 
-.section2__tabla {
+.section2 .section2__tabla {
   width: 600px;
   height: 400px;
 }
@@ -390,7 +390,7 @@ table {
   position: relative;
 }
 
-.section1__nutricion::before {
+.section1__nutricion .section1__nutricion::before {
   content: "";
   width: 100%;
   height: 650px;
@@ -401,14 +401,14 @@ table {
   opacity: 0.5;
 }
 
-.nutricion__titulo {
+.section1__nutricion .nutricion__titulo {
   font-size: 70px;
   text-align: center;
   margin-bottom: 10rem;
   position: absolute;
 }
 
-.nutricion__parrafo {
+.section1__nutricion .nutricion__parrafo {
   color: white;
   text-align: center;
   font-size: 32px;
@@ -431,13 +431,13 @@ table {
   align-items: center;
 }
 
-.nutricion__parrafo-2 {
+.section2__nutricion .nutricion__parrafo-2 {
   font-size: 34px;
   margin-bottom: 1rem;
   padding: 20px;
 }
 
-.nutricion__titulo-2 {
+.section2__nutricion .nutricion__titulo-2 {
   font-size: 26px;
   text-align: center;
   padding: 1rem;
@@ -518,24 +518,11 @@ table {
   position: relative;
 }
 
-.nosotros__titulo {
+.seccion__nosotros .nosotros__titulo {
   font-size: 55px;
   text-align: center;
   top: 2rem;
   position: absolute;
-}
-
-.nosotros__titulos {
-  font-size: 40px;
-  margin-top: 3rem;
-  padding: 1rem;
-  text-align: center;
-}
-
-.nosotros__parrafos {
-  text-align: center;
-  line-height: 1.5;
-  font-size: 24px;
 }
 
 .seccion2__grid {

@@ -13,32 +13,36 @@
     align-items: center;
 }
 
-.contacto__titulo{
-    font-size: 40px;
-    text-align: center;
-    padding: 2rem;
-}
-.contacto__parrafo{
-    text-align: center;
-    font-size: 28px;
-    padding-bottom: 1rem;
-}
+// .contacto__titulo{
+//     font-size: 40px;
+//     text-align: center;
+//     padding: 2rem;
+// }
+// .contacto__parrafo{
+//     text-align: center;
+//     font-size: 28px;
+//     padding-bottom: 1rem;
+// }
 .contenedor{
     background-color: black;
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
+
+    .contenedor__titulo{
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    
+        .contenedor__titulo  span{
+            color: #b70e21;
+        }
+    }
 }
-.contenedor__titulo{
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-.contenedor__titulo  span{
-    color: #b70e21;
-}
+
+
 .contact-formulario{
     box-shadow:0 0 20px 0 rgba(157, 140, 140, 0.3) ;
     /* padding: 2em; */
