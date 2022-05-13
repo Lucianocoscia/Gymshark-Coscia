@@ -30,19 +30,19 @@ body {
   top: 0;
 }
 
-.header .header__emoji {
-  display: none;
-}
-
 .header .header__logo {
   width: 230px;
+}
+
+.header__emoji {
+  display: none;
 }
 
 .nav {
   padding: 1rem;
 }
 
-.nav .nav__lista {
+.nav__lista {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -50,28 +50,28 @@ body {
   margin-bottom: 0;
 }
 
-.nav .nav__enlace {
+.nav__enlace {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
   font-size: 24px;
 }
 
-.nav .nav__item {
-  padding: 10px;
-  margin-left: 16px;
-}
-
-.nav .nav__item--close {
-  display: none;
-}
-
-.nav .nav__item:hover {
+.nav__item:hover {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 3px;
   color: #fff;
   box-shadow: 0 0 10px #b70e21;
   transition: .7s;
+}
+
+.nav__item {
+  padding: 10px;
+  margin-left: 16px;
+}
+
+.nav__item--close {
+  display: none;
 }
 
 /* Footer */
@@ -147,7 +147,7 @@ ul .lista__enlace {
   background-color: black;
 }
 
-.seccion .seccion__unidades-1 {
+.seccion__unidades-1 {
   opacity: 0.7;
   width: 30%;
   display: flex;
@@ -157,35 +157,35 @@ ul .lista__enlace {
   position: relative;
 }
 
-.seccion .seccion__unidades-1 .seccion__unidades-1:hover {
+.seccion__unidades-2 {
+  width: 30%;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.seccion__unidades-3 {
+  width: 30%;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.seccion__unidades-1:hover {
   opacity: 1;
 }
 
-.seccion .seccion__unidades-2 {
-  width: 30%;
-  opacity: 0.7;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.seccion .seccion__unidades-2 .seccion__unidades-2:hover {
+.seccion__unidades-2:hover {
   opacity: 1;
 }
 
-.seccion .seccion__unidades-3 {
-  width: 30%;
-  opacity: 0.7;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.seccion .seccion__unidades-3 .seccion__unidades-3:hover {
+.seccion__unidades-3:hover {
   opacity: 1;
 }
 
@@ -215,7 +215,7 @@ ul .lista__enlace {
   background-color: black;
 }
 
-.seccion__titulo .section1__titulo {
+.section1__titulo {
   padding: 30px;
   text-align: center;
   font-size: 50px;
@@ -239,7 +239,7 @@ ul .lista__enlace {
   transition: transform .8s;
 }
 
-.grid__div .grid__div:hover {
+.grid__div:hover {
   transform: scale(1.03);
 }
 
@@ -250,7 +250,7 @@ ul .lista__enlace {
   height: 400px;
 }
 
-.div__titulo .div__titulo-1 {
+.div__titulo-1 {
   background-image: url(../imagenes/salon1.jfif);
   background-size: cover;
   background-repeat: no-repeat;
@@ -260,7 +260,7 @@ ul .lista__enlace {
   align-items: center;
 }
 
-.div__titulo .div__titulo-2 {
+.div__titulo-2 {
   background-image: url(../imagenes/funcional2.jfif);
   background-size: cover;
   background-repeat: no-repeat;
@@ -270,7 +270,7 @@ ul .lista__enlace {
   align-items: center;
 }
 
-.div__titulo .div__titulo-3 {
+.div__titulo-3 {
   background-image: url(../imagenes/pilates1.jfif);
   background-size: cover;
   background-repeat: no-repeat;
@@ -280,7 +280,7 @@ ul .lista__enlace {
   align-items: center;
 }
 
-.div__titulo .div__titulo-4 {
+.div__titulo-4 {
   background-image: url(../imagenes/yoga1.jfif);
   background-size: cover;
   background-repeat: no-repeat;
@@ -290,7 +290,7 @@ ul .lista__enlace {
   align-items: center;
 }
 
-.div__titulo .div__titulo-5 {
+.div__titulo-5 {
   background-image: url(../imagenes/crossfit.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -300,7 +300,7 @@ ul .lista__enlace {
   align-items: center;
 }
 
-.div__titulo .div__titulo-6 {
+.div__titulo-6 {
   background-image: url(../imagenes/gap.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -310,7 +310,7 @@ ul .lista__enlace {
   align-items: center;
 }
 
-.div__titulo .div__titulo-7 {
+.div__titulo-7 {
   background-image: url(../imagenes/zumba3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -320,7 +320,7 @@ ul .lista__enlace {
   align-items: center;
 }
 
-.div__titulo .div__titulo-8 {
+.div__titulo-8 {
   background-image: url(../imagenes/spinning.jfif);
   background-size: cover;
   background-repeat: no-repeat;
@@ -594,7 +594,7 @@ table {
   align-items: center;
 }
 
-.seccion3__nosotros-titulo {
+.seccion3__nosotros .seccion3__nosotros-titulo {
   margin: 1rem;
   font-size: 2rem;
 }
@@ -619,18 +619,6 @@ iframe {
   align-items: center;
 }
 
-.contacto__titulo {
-  font-size: 40px;
-  text-align: center;
-  padding: 2rem;
-}
-
-.contacto__parrafo {
-  text-align: center;
-  font-size: 28px;
-  padding-bottom: 1rem;
-}
-
 .contenedor {
   background-color: black;
   max-width: 1170px;
@@ -639,14 +627,14 @@ iframe {
   padding: 1rem;
 }
 
-.contenedor__titulo {
+.contenedor .contenedor__titulo {
   text-align: center;
   font-size: 3rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
-.contenedor__titulo span {
+.contenedor .contenedor__titulo .contenedor__titulo span {
   color: #b70e21;
 }
 
