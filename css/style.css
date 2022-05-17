@@ -237,7 +237,8 @@ ul .lista__enlace {
 .grid__div {
   text-align: center;
   margin-top: 1rem;
-  margin-left: 1.5rem;
+  margin-left: 0;
+  padding: 2.5rem;
   transition: transform .8s;
 }
 
@@ -248,7 +249,7 @@ ul .lista__enlace {
 .div__titulo {
   text-align: center;
   font-size: 40px;
-  width: 550px;
+  width: 100%;
   height: 400px;
 }
 
@@ -335,11 +336,9 @@ ul .lista__enlace {
 .div__parrafo {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
-  margin-left: 5rem;
   text-align: center;
   font-size: 20px;
   line-height: 1.5;
-  width: 400px;
 }
 
 .div__span {
@@ -850,12 +849,14 @@ h1, h2, h3, h4, h5, h6 {
   .grid__div {
     justify-self: center;
     margin-bottom: 1rem;
+    margin-left: 0;
   }
   .div__titulo {
-    width: 90%;
+    width: 100%;
   }
   .div__parrafo {
-    padding-right: 7rem;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .div__span {
     padding-right: 2rem;
@@ -1013,7 +1014,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
     margin-left: 0;
     margin-top: 1rem;
-    width: 90%;
+    width: 100%;
     gap: 1rem;
   }
   .seccion__titulo {
@@ -1029,17 +1030,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 5%;
   }
   .div__titulo {
-    margin-left: 0;
     width: 100%;
   }
   .div__parrafo {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
     font-size: 18px;
   }
   .div__parrafo {
-    padding-right: 0;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .div__span {
     padding-right: 0;
