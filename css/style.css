@@ -256,91 +256,49 @@ ul .lista__enlace {
   transform: scale(1.03);
 }
 
-.div__titulo {
+.div__titulo, .div__titulo-1, .div__titulo-2, .div__titulo-3, .div__titulo-4, .div__titulo-5, .div__titulo-6, .div__titulo-7, .div__titulo-8 {
   text-align: center;
   font-size: 40px;
   width: 100%;
   height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .div__titulo-1 {
   background-image: url(../imagenes/salon1.jfif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .div__titulo-2 {
   background-image: url(../imagenes/funcional2.jfif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .div__titulo-3 {
   background-image: url(../imagenes/pilates1.jfif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .div__titulo-4 {
   background-image: url(../imagenes/yoga1.jfif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .div__titulo-5 {
   background-image: url(../imagenes/crossfit.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .div__titulo-6 {
   background-image: url(../imagenes/gap.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .div__titulo-7 {
   background-image: url(../imagenes/zumba3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .div__titulo-8 {
   background-image: url(../imagenes/spinning.jfif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .div__parrafo {
@@ -627,6 +585,7 @@ iframe {
   background-color: Black;
   display: flex;
   flex-direction: column;
+  justify-content: normal;
   align-items: center;
 }
 
@@ -861,7 +820,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
     margin-left: 0;
   }
-  .div__titulo {
+  .div__titulo, .div__titulo-1, .div__titulo-2, .div__titulo-3, .div__titulo-4, .div__titulo-5, .div__titulo-6, .div__titulo-7, .div__titulo-8 {
     width: 100%;
   }
   .div__parrafo {
@@ -1039,7 +998,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 5%;
     margin-right: 5%;
   }
-  .div__titulo {
+  .div__titulo, .div__titulo-1, .div__titulo-2, .div__titulo-3, .div__titulo-4, .div__titulo-5, .div__titulo-6, .div__titulo-7, .div__titulo-8 {
     width: 100%;
   }
   .div__parrafo {

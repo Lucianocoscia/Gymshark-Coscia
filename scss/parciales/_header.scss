@@ -5,10 +5,9 @@
     padding: 1rem;
     width: 100%;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    @include generarFlex(row, space-between, center);
+
+
 
     position: sticky;
     z-index: 100;
@@ -30,9 +29,8 @@
 }
 .nav__lista{
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    @include generarFlex(row, space-between);
+
     margin-bottom: 0;
 }
 .nav__enlace{

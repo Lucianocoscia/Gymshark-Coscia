@@ -41,6 +41,7 @@
 .grid__div:hover{
     transform: scale(1.03);
 }
+//Extend
 
 .div__titulo{
     text-align: center;
@@ -48,97 +49,56 @@
     width: 100%;
     height: 400px;
 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    @include generarFlex(row, center, center);
+
+
 }
 .div__titulo-1{
     background-image: url(../imagenes/salon1.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    @extend .div__titulo;
+
 }
 .div__titulo-2{
     background-image: url(../imagenes/funcional2.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend .div__titulo;
 
 }
 .div__titulo-3{
     background-image: url(../imagenes/pilates1.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend .div__titulo;
 
 }
 .div__titulo-4{
     background-image: url(../imagenes/yoga1.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend .div__titulo;
 
 }
 
 .div__titulo-5{
     background-image: url(../imagenes/crossfit.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend .div__titulo;
 
 }
 
 .div__titulo-6{
     background-image: url(../imagenes/gap.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend .div__titulo;
 
 }
 
 .div__titulo-7{
     background-image: url(../imagenes/zumba3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend .div__titulo;
 
 }
 .div__titulo-8{
     background-image: url(../imagenes/spinning.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    @extend .div__titulo;
 }
 .div__parrafo{
     margin-top: 1.5rem;
@@ -166,10 +126,8 @@
     margin-bottom: 3rem;
     width: 80%;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include generarFlex(column, center, center);
+
 
     &__titulo{
         text-align: center;
