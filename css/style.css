@@ -609,7 +609,6 @@ iframe {
 
 .contact__formulario {
   box-shadow: 0 0 20px 0 rgba(157, 140, 140, 0.3);
-  /* padding: 2em; */
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
@@ -680,7 +679,6 @@ iframe {
 
 .contact__info ul {
   list-style-type: none;
-  /* padding: 0 ; */
 }
 
 .contact__info ul li {
@@ -782,6 +780,10 @@ h1, h2, h3, h4, h5, h6 {
   position: sticky;
   bottom: 8rem;
   right: 0;
+}
+
+a:hover {
+  color: #fff;
 }
 
 @media screen and (max-width: 1023px) {

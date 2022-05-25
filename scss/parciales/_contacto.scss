@@ -35,7 +35,6 @@
 
 .contact__formulario{
     box-shadow:$Box-ShadowForms ;
-    /* padding: 2em; */
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -103,7 +102,6 @@
     }
     & ul {
         list-style-type: none;
-        /* padding: 0 ; */
     }
     & ul li{ 
         padding: .3em;
