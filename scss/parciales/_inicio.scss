@@ -22,6 +22,10 @@
     @include generarFlex(row, center, center);
 
     position: relative;
+
+    &:hover{
+        opacity: 1;
+    }
 }
 
 .seccion__unidades-2{
@@ -30,6 +34,10 @@
     @include generarFlex(row, center, center);
 
     position: relative;
+
+    &:hover{
+        opacity: 1;
+    }
 }
 
 .seccion__unidades-3{
@@ -38,16 +46,14 @@
     @include generarFlex(row, center, center);
 
     position: relative;
+
+    &:hover{
+        opacity: 1;
+    }
 }
-.seccion__unidades-1:hover{
-    opacity: 1;
-}
-.seccion__unidades-2:hover{
-    opacity: 1;
-}
-.seccion__unidades-3:hover{
-    opacity: 1;
-}
+
+
+
 .unidad__titulo{
     font-size: 40px;
     text-align: center;

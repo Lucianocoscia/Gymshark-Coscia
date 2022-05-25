@@ -59,6 +59,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: normal;
   margin-bottom: 0;
 }
 
@@ -69,17 +70,17 @@ body::-webkit-scrollbar-thumb {
   font-size: 24px;
 }
 
+.nav__item {
+  padding: 10px;
+  margin-left: 16px;
+}
+
 .nav__item:hover {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 3px;
   color: #fff;
   box-shadow: 0 0 10px #b70e21;
   transition: .7s;
-}
-
-.nav__item {
-  padding: 10px;
-  margin-left: 16px;
 }
 
 .nav__item--close {
@@ -169,6 +170,10 @@ ul .lista__enlace {
   position: relative;
 }
 
+.seccion__unidades-1:hover {
+  opacity: 1;
+}
+
 .seccion__unidades-2 {
   width: 30%;
   opacity: 0.7;
@@ -179,6 +184,10 @@ ul .lista__enlace {
   position: relative;
 }
 
+.seccion__unidades-2:hover {
+  opacity: 1;
+}
+
 .seccion__unidades-3 {
   width: 30%;
   opacity: 0.7;
@@ -187,14 +196,6 @@ ul .lista__enlace {
   justify-content: center;
   align-items: center;
   position: relative;
-}
-
-.seccion__unidades-1:hover {
-  opacity: 1;
-}
-
-.seccion__unidades-2:hover {
-  opacity: 1;
 }
 
 .seccion__unidades-3:hover {
@@ -265,6 +266,7 @@ ul .lista__enlace {
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -359,6 +361,22 @@ table {
   position: relative;
 }
 
+.section1__nutricion__titulo {
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 10rem;
+  position: absolute;
+}
+
+.section1__nutricion__parrafo {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  width: 90%;
+  margin-top: 10rem;
+  position: absolute;
+}
+
 .section1__nutricion::before {
   content: "";
   width: 100%;
@@ -368,22 +386,6 @@ table {
   left: 0;
   background: linear-gradient(90deg, #1e1e1e, #1e1e1e);
   opacity: 0.5;
-}
-
-.nutricion__titulo {
-  font-size: 70px;
-  text-align: center;
-  margin-bottom: 10rem;
-  position: absolute;
-}
-
-.nutricion__parrafo {
-  color: #fff;
-  text-align: center;
-  font-size: 32px;
-  width: 90%;
-  margin-top: 10rem;
-  position: absolute;
 }
 
 .section2__nutricion {
@@ -400,20 +402,20 @@ table {
   align-items: center;
 }
 
-.section2__nutricion .nutricion__parrafo-2 {
+.section2__nutricion__parrafo {
   font-size: 34px;
   margin-bottom: 1rem;
   padding: 20px;
 }
 
-.section2__nutricion .nutricion__titulo-2 {
+.section2__nutricion__titulo {
   font-size: 26px;
   text-align: center;
   padding: 1rem;
 }
 
 /* Formulario de nutricion */
-.nutricion-formulario {
+.nutricion__formulario {
   box-shadow: 0 0 20px 0 rgba(157, 140, 140, 0.3);
   display: grid;
   grid-template-columns: 2fr;
@@ -421,40 +423,37 @@ table {
   margin-top: 2rem;
 }
 
-.nutricion-form {
+.nutricion__form {
   background-color: Black;
   padding: 2em;
 }
 
-.nutricion-form form {
+.nutricion__form form {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.nutricion-form form .block {
+.nutricion__form form .block {
   grid-column: 1 / 3;
 }
 
-/* .nutricion-form h3 {
-    font-size: 22px;
-} */
-.nutricion-form form p {
+.nutricion__form form p {
   margin: 0;
   padding: 1rem;
   font-size: 20px;
 }
 
-.nutricion-form form button:hover,
-.nutricion-form form button:focus {
+.nutricion__form form button:hover,
+.nutricion__form .nutricion__form form button:focus {
   background: #d63031;
   color: #000;
   transition: background-color 1s ease-out;
   outline: 0;
 }
 
-.nutricion-form form button,
-.nutricion-form form input,
-.nutricion-form form textarea {
+.nutricion__form form button,
+.nutricion__form form input,
+.nutricion__form form textarea {
   width: 100%;
   padding: .7rem;
   border: none;
@@ -464,7 +463,7 @@ table {
   color: #fff;
 }
 
-.nutricion-form form button {
+.nutricion__form form button {
   background: #b70e21;
   border: 0;
   text-transform: uppercase;
@@ -487,7 +486,7 @@ table {
   position: relative;
 }
 
-.seccion__nosotros .nosotros__titulo {
+.seccion__nosotros__titulo {
   font-size: 55px;
   text-align: center;
   top: 2rem;
@@ -563,7 +562,7 @@ table {
   align-items: center;
 }
 
-.seccion3__nosotros .seccion3__nosotros-titulo {
+.seccion3__nosotros-titulo {
   margin: 1rem;
   font-size: 2rem;
 }
@@ -597,7 +596,7 @@ iframe {
   padding: 1rem;
 }
 
-.contenedor .contenedor__titulo {
+.contenedor__titulo {
   text-align: center;
   font-size: 3rem;
   margin-top: 1rem;
@@ -608,48 +607,48 @@ iframe {
   color: #b70e21;
 }
 
-.contact-formulario {
+.contact__formulario {
   box-shadow: 0 0 20px 0 rgba(157, 140, 140, 0.3);
   /* padding: 2em; */
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
 
-.contact-form {
+.contact__form {
   background-color: Black;
   padding: 2em;
 }
 
-.contact-form form {
+.contact__form form {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.contact-form form .block {
+.contact__form form .block {
   grid-column: 1 / 3;
 }
 
-.contact-form h3 {
+.contact__form h3 {
   font-size: 22px;
 }
 
-.contact-form form p {
+.contact__form form p {
   margin: 0;
   padding: 1rem;
   font-size: 20px;
 }
 
-.contact-form form button:hover,
-.contact-form form button:focus {
+.contact__form form button:hover,
+.contact__form form button:focus {
   background: #d63031;
   color: #000;
   transition: background-color 1s ease-out;
   outline: 0;
 }
 
-.contact-form form button,
-.contact-form form input,
-.contact-form form textarea {
+.contact__form form button,
+.contact__form form input,
+.contact__form form textarea {
   width: 100%;
   padding: .7rem;
   border: none;
@@ -659,38 +658,43 @@ iframe {
   color: #fff;
 }
 
-.contact-form form button {
+.contact__form form button {
   background: #b70e21;
   border: 0;
   text-transform: uppercase;
   padding: 1rem;
 }
 
-.contact-info {
+.contact__info {
   background-color: #0d0d0d;
 }
 
-.contact-info h4,
-.contact-info ul,
-.contact-info p {
+.contact__info h4,
+.contact__info ul,
+.contact__info p {
   text-align: start;
   margin: 0 0 1rem;
   padding: 1em;
   font-size: 20px;
 }
 
-.contact-info ul {
+.contact__info ul {
   list-style-type: none;
   /* padding: 0 ; */
 }
 
-.contact-info ul li {
+.contact__info ul li {
   padding: .3em;
 }
 
 /* Modificando estilos bootstrap */
 .presentacion {
   height: 590px;
+}
+
+.imagen {
+  background: linear-gradient(90deg, #1e1e1e, #1e1e1e);
+  opacity: 0.8;
 }
 
 table {
@@ -718,11 +722,11 @@ dl, ol, ul {
 
 .lista__enlace:hover {
   color: #b70e21;
+  transition: 0.5s;
   opacity: 1;
 }
 
 .accordion-flush {
-  border-radius: 4px;
   width: 80%;
 }
 
@@ -733,7 +737,6 @@ dl, ol, ul {
 }
 
 .accordion-button {
-  border-radius: 4px;
   background-color: #000;
   color: #fff;
   text-align: center;
@@ -753,6 +756,15 @@ dl, ol, ul {
   color: #fff;
   background-color: #000;
   box-shadow: 0 0 20px 0 rgba(157, 140, 140, 0.3);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  transform: rotate(-180deg);
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  border-radius: 4px;
 }
 
 .accordion-body {
@@ -788,8 +800,18 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
   /* Inicio */
+  .imagen {
+    background: linear-gradient(90deg, #1e1e1e, #1e1e1e);
+    opacity: 0.8;
+  }
+  h1 {
+    font-size: 35px;
+  }
   .presentacion {
     height: auto;
+  }
+  .d-none {
+    display: block !important;
   }
   .imagen {
     height: 400px;
@@ -841,10 +863,10 @@ h1, h2, h3, h4, h5, h6 {
   .section1__nutricion::before {
     height: 450px;
   }
-  .nutricion__titulo {
+  .section1__nutricion__titulo {
     font-size: 64px;
   }
-  .nutricion__parrafo {
+  .section1__nutricion__parrafo {
     font-size: 30px;
   }
   .section2__nutricion {
@@ -852,7 +874,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 5%;
     width: 90%;
   }
-  .nutricion__parrafo-2 {
+  .section2__nutricion__parrafo {
     font-size: 28px;
     text-align: center;
     padding: 1rem;
@@ -861,18 +883,12 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
   }
   /* Nosotros */
-  .nosotros__titulo {
+  .seccion__nosotros__titulo {
     position: relative;
     font-size: 50px;
   }
-  .nosotros__titulos {
-    font-size: 35px;
-  }
-  .nosotros__parrafos {
-    margin-inline: 1rem;
-  }
   /* Contacto */
-  .contact-form form {
+  .contact__form form {
     display: flex;
     flex-direction: column;
   }
@@ -907,6 +923,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #lateral:target {
     right: 0;
+    color: #fff;
   }
   .nav__lista {
     flex-direction: column;
@@ -974,6 +991,7 @@ h1, h2, h3, h4, h5, h6 {
   /* Entrenamientos */
   .section1__titulo {
     font-size: 45px;
+    padding: 1rem;
   }
   .grid__section1 {
     grid-template-columns: repeat(1, 1fr);
@@ -991,9 +1009,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 5%;
     width: 90%;
   }
-  .section1__titulo {
-    padding: 1rem;
-  }
   .grid__section1 {
     margin-left: 5%;
     margin-right: 5%;
@@ -1002,11 +1017,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
   }
   .div__parrafo {
-    font-size: 18px;
-  }
-  .div__parrafo {
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 18px;
   }
   .div__span {
     padding-right: 0;
@@ -1031,10 +1044,10 @@ h1, h2, h3, h4, h5, h6 {
   .section1__nutricion::before {
     height: 500px;
   }
-  .nutricion__titulo {
+  .section1__nutricion__titulo {
     font-size: 50px;
   }
-  .nutricion__parrafo {
+  .section1__nutricion__parrafo {
     margin-top: 11rem;
     width: 100%;
     font-size: 22px;
@@ -1042,29 +1055,23 @@ h1, h2, h3, h4, h5, h6 {
   .section2__nutricion {
     margin-top: 2rem;
   }
-  .nutricion__parrafo-2 {
+  .section2__nutricion__parrafo {
     font-size: 24px;
   }
-  .nutricion__titulo-2 {
+  .section2__nutricion__titulo {
     font-size: 24px;
   }
   .seccion2__grid {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: "ele8 ele6 ele5" ". ele7 ele3" "ele1 ele9 ele2";
   }
-  .nutricion-form form {
+  .nutricion__form form {
     display: flex;
     flex-direction: column;
   }
   /* Nosotros */
-  .nosotros__titulo {
+  .seccion__nosotros__titulo {
     font-size: 40px;
-  }
-  .nosotros__titulos {
-    font-size: 32px;
-  }
-  .nosotros__parrafos {
-    font-size: 24px;
   }
   .seccion2__grid {
     margin-left: 5%;
@@ -1075,17 +1082,17 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
   }
   /* Contacto */
-  .contact-formulario {
+  .contact__formulario {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
     padding: 1em;
     display: block;
   }
-  .contact-info h4,
-  .contact-info ul,
-  .contact-info p {
+  .contact__info h4,
+  .contact__info ul,
+  .contact__info p {
     text-align: center;
   }
-  .contact-form form {
+  .contact__form form {
     display: flex;
     flex-direction: column;
   }

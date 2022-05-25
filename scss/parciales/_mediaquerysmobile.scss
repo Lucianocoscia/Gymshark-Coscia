@@ -30,6 +30,7 @@
         }
         #lateral:target{
             right: 0;
+            color: #fff;
         }
         .nav__lista{
             flex-direction: column;
@@ -102,6 +103,7 @@
     /* Entrenamientos */
         .section1__titulo{
             font-size: 45px;
+            padding: 1rem;
         } 
         .grid__section1{
             grid-template-columns: repeat(1,1fr);
@@ -120,28 +122,17 @@
             margin-right: 5%;
             width: 90%;
         }
-        .section1__titulo{
-            padding: 1rem;
-        }
         .grid__section1{
             margin-left: 5%;
             margin-right: 5%;
         }
         .div__titulo{
-            // margin-left: 0;
             width: 100%;
         }
         .div__parrafo{
-            // width: 100%;
-    
-            font-size: 18px;
-        }
-        .div__parrafo{
-            // padding-right: 0;
             margin-left: 5%;
             margin-right: 5%;
-
-    
+            font-size: 18px;
         }
         .div__span {
             padding-right: 0;
@@ -153,11 +144,9 @@
         }
         .section2__titulo {
             font-size: 30px;
-    
         }
         .section2__tabla{
             width: 80%;
-    
             font-size: 13px;
         }
     
@@ -169,10 +158,10 @@
         .section1__nutricion::before{
             height: 500px;
         }
-        .nutricion__titulo{
+        .section1__nutricion__titulo{
             font-size: 50px;
         }
-        .nutricion__parrafo{
+        .section1__nutricion__parrafo{
             margin-top: 11rem;
             width: 100%;
             font-size: 22px;
@@ -180,10 +169,10 @@
         .section2__nutricion{
             margin-top: 2rem;
         }
-        .nutricion__parrafo-2{
+        .section2__nutricion__parrafo{
             font-size: 24px;
         }
-        .nutricion__titulo-2{
+        .section2__nutricion__titulo{
             font-size: 24px;
         }
         .seccion2__grid{
@@ -193,20 +182,14 @@
             ". ele7 ele3"
             "ele1 ele9 ele2";
         }
-        .nutricion-form form {
+        .nutricion__form form {
             display: flex;
             flex-direction: column;
         }
     
     /* Nosotros */
-        .nosotros__titulo{
+        .seccion__nosotros__titulo{
             font-size: 40px;
-        }
-        .nosotros__titulos{
-            font-size:32px ;
-        }
-        .nosotros__parrafos{
-            font-size: 24px;
         }
         .seccion2__grid {
             margin-left: 5%;
@@ -214,22 +197,21 @@
             width: 90%;
         }
     
-    
         iframe{
             width: 100%;
         }
     /* Contacto */
-        .contact-formulario{
+        .contact__formulario{
             box-shadow:0 0 20px 0 rgba(255, 255, 255, .3) ;
             padding: 1em;
             display: block;
         }
-        .contact-info h4,
-        .contact-info ul,
-        .contact-info p {
+        .contact__info h4,
+        .contact__info ul,
+        .contact__info p {
             text-align: center;
         }
-        .contact-form form {
+        .contact__form form {
             display: flex;
             flex-direction: column;
         }

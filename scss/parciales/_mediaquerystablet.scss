@@ -15,8 +15,20 @@
         }
     
     /* Inicio */
+
+        .imagen{
+            background: linear-gradient(90deg, #1e1e1e , #1e1e1e   );
+        
+            opacity: 0.8;
+        }
+        h1 {
+            font-size: 35px;
+        }
         .presentacion{
             height: auto;
+        }
+        .d-none {
+            display: block!important;
         }
         .imagen{
             height: 400px;
@@ -70,10 +82,10 @@
         .section1__nutricion::before{
             height: 450px;
         }
-        .nutricion__titulo{
+        .section1__nutricion__titulo{
             font-size: 64px;
         }
-        .nutricion__parrafo{
+        .section1__nutricion__parrafo{
             font-size: 30px;
         }
         .section2__nutricion{
@@ -81,7 +93,7 @@
             margin-right: 5%;
             width: 90%;
         }
-        .nutricion__parrafo-2{
+        .section2__nutricion__parrafo{
             font-size: 28px;
             text-align: center;
             padding: 1rem;
@@ -91,18 +103,13 @@
         }
     
     /* Nosotros */
-        .nosotros__titulo{
+        .seccion__nosotros__titulo{
             position: relative;
             font-size: 50px;
         }
-        .nosotros__titulos {
-            font-size: 35px;
-        }
-        .nosotros__parrafos{
-            margin-inline: 1rem;
-        }
+        
     /* Contacto */
-    .contact-form form {
+    .contact__form form {
         display: flex;
         flex-direction: column;
     }

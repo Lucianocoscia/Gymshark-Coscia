@@ -36,11 +36,11 @@
 
     transition: transform .8s;
 
+    &:hover{
+        transform: scale(1.03);
+    }
+}
 
-}
-.grid__div:hover{
-    transform: scale(1.03);
-}
 //Extend
 
 .div__titulo{
@@ -55,59 +55,58 @@
     
     @include generarFlex(row, center, center);
 
-
+    &-1{
+        background-image: url(../imagenes/salon1.jfif);
+    
+        @extend .div__titulo;
+    
+    }
+    &-2{
+        background-image: url(../imagenes/funcional2.jfif);
+        @extend .div__titulo;
+    
+    }
+    &-3{
+        background-image: url(../imagenes/pilates1.jfif);
+        @extend .div__titulo;
+    
+    }
+    &-4{
+        background-image: url(../imagenes/yoga1.jfif);
+        @extend .div__titulo;
+    
+    }
+    
+    &-5{
+        background-image: url(../imagenes/crossfit.jpg);
+        @extend .div__titulo;
+    
+    }
+    
+    &-6{
+        background-image: url(../imagenes/gap.jpg);
+        @extend .div__titulo;
+    
+    }
+    
+    &-7{
+        background-image: url(../imagenes/zumba3.jpg);
+        @extend .div__titulo;
+    
+    }
+    &-8{
+        background-image: url(../imagenes/spinning.jfif);
+        @extend .div__titulo;
+    }
 }
-.div__titulo-1{
-    background-image: url(../imagenes/salon1.jfif);
 
-    @extend .div__titulo;
-
-}
-.div__titulo-2{
-    background-image: url(../imagenes/funcional2.jfif);
-    @extend .div__titulo;
-
-}
-.div__titulo-3{
-    background-image: url(../imagenes/pilates1.jfif);
-    @extend .div__titulo;
-
-}
-.div__titulo-4{
-    background-image: url(../imagenes/yoga1.jfif);
-    @extend .div__titulo;
-
-}
-
-.div__titulo-5{
-    background-image: url(../imagenes/crossfit.jpg);
-    @extend .div__titulo;
-
-}
-
-.div__titulo-6{
-    background-image: url(../imagenes/gap.jpg);
-    @extend .div__titulo;
-
-}
-
-.div__titulo-7{
-    background-image: url(../imagenes/zumba3.jpg);
-    @extend .div__titulo;
-
-}
-.div__titulo-8{
-    background-image: url(../imagenes/spinning.jfif);
-    @extend .div__titulo;
-}
 .div__parrafo{
     margin-top: 1.5rem;
     margin-bottom: 1rem;
-    // margin-left: 5rem;
+    
     text-align: center;
     font-size: 20px;
     line-height: 1.5 ;
-    // width: 400px;
 }
 
 .div__span{
