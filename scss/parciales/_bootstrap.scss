@@ -9,7 +9,7 @@
     opacity: 0.8;
 }
 table {
-    text-align: center;
+    text-align:map-get($estilos, centro );
     border-collapse: inherit;
 }
 tbody, td, tfoot, th, thead, tr{
@@ -45,7 +45,7 @@ dl, ol, ul {
 
     background-color: #000;
     color:$Color-LetraPrincipal;
-    text-align: center;
+    text-align:map-get($estilos, centro );
     box-shadow:$Box-ShadowForms ;
     font-size: 2rem;
     font-weight: 600;

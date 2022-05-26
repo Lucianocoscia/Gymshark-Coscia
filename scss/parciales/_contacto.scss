@@ -17,7 +17,7 @@
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
+    padding: map-get($estilos, padding );
 
     &__titulo{
         text-align: center;
@@ -54,7 +54,7 @@
     }
     & form p {
         margin: 0;
-        padding: 1rem;
+        padding:map-get($estilos, padding );
         font-size: 20px;
     }
     
@@ -81,7 +81,7 @@
         background: #b70e21;
         border: 0;
         text-transform: uppercase;
-        padding: 1rem;
+        padding: map-get($estilos, padding );
     }
 
 }

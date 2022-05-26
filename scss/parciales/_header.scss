@@ -2,7 +2,7 @@
 .header{
     margin-top: 0;
     background-color: $BackgroundColor;
-    padding: 1rem;
+    padding: map-get($estilos, padding );
     width: 100%;
 
     @include generarFlex(row, space-between, center);
@@ -26,7 +26,7 @@
 
     
 .nav{
-    padding: 1rem;
+    padding:map-get($estilos, padding );
 
     &__lista{
         list-style: none;

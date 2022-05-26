@@ -14,14 +14,14 @@
 
     &__titulo{
         font-size: 70px;
-        text-align: center;
+        text-align:map-get($estilos, centro );
         margin-bottom: 10rem;
         position: absolute;
     }
     
     &__parrafo{
         color: $Color-LetraPrincipal;
-        text-align: center;
+        text-align:map-get($estilos, centro );
         font-size: 32px;
         width: 90%;
         margin-top: 10rem;
@@ -65,7 +65,7 @@
     }
     &__titulo{
         font-size: 26px;
-        text-align: center;
+        text-align:map-get($estilos, centro );
         padding: 1rem;
     }
 }

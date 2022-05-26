@@ -2,11 +2,13 @@
     /* Header */
         .header{
             flex-direction: column;
+
+            &__emoji{
+                display: none;
+            }
         }
         
-        .header__emoji{
-            display: none;
-        }
+
         .nav__item--close{
             display: none;
         }
@@ -33,9 +35,6 @@
         .imagen{
             height: 400px;
         }
-        .presentacion__titulo{
-            font-size: 50px;
-        }
         .seccion{
             margin-left: 0;
             margin-right: 0;
@@ -50,7 +49,9 @@
         .seccion__unidades-3{
             width: 32%;
         }
+
     /* Entrenamientos */
+
         .grid__section1{
             grid-template-columns: repeat(1,1fr);
         }
@@ -65,7 +66,6 @@
         .div__parrafo{
             margin-left: 5%;
             margin-right: 5%;
-    
         }
         .div__span {
             padding-right: 2rem;
@@ -75,40 +75,47 @@
         }
     
     /* Nutricion */
+
         .section1__nutricion{
             background-attachment: inherit;
             height: 450px;
+
+            &::before{
+                height: 450px;
+            }
+            &__titulo{
+                font-size: 64px;
+            }
+            &__parrafo{
+                font-size: 30px;
+            }
         }
-        .section1__nutricion::before{
-            height: 450px;
-        }
-        .section1__nutricion__titulo{
-            font-size: 64px;
-        }
-        .section1__nutricion__parrafo{
-            font-size: 30px;
-        }
+
         .section2__nutricion{
             margin-left: 5%;
             margin-right: 5%;
             width: 90%;
+
+            &__parrafo{
+                font-size: 28px;
+                text-align: center;
+                padding: 1rem;
+            }
         }
-        .section2__nutricion__parrafo{
-            font-size: 28px;
-            text-align: center;
-            padding: 1rem;
-        }
+
         .nutricion__form{
             width: 100%;
         }
     
     /* Nosotros */
+
         .seccion__nosotros__titulo{
             position: relative;
             font-size: 50px;
         }
         
     /* Contacto */
+    
     .contact__form form {
         display: flex;
         flex-direction: column;
