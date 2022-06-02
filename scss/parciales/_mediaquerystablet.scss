@@ -73,7 +73,16 @@
         .section2__tabla{
             width: 100%;
         }
-    
+
+        .streaming__div2 h2, h3, p {
+            padding: 1rem;
+        }
+        .streaming__img {
+            margin-left: 0;
+        }
+        .streaming__h2{
+            font-size: 2rem;
+        }
     /* Nutricion */
 
         .section1__nutricion{
