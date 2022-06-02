@@ -143,3 +143,74 @@ table {
     background-color: $BackgroundColor;
     border-color: #b70e21;
 }
+
+// Seccion streaming
+
+.streaming{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-bottom: 2rem;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+}
+.streaming1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-bottom: 1rem;
+    background-color: #000;
+}
+.streaming1 h2 {
+    text-align: center;
+}
+.streaming1 p {
+    font-size: 20px;
+}
+.streaming__div{
+    margin-left: 5rem;
+}
+.streaming_div2{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.streaming__div2 h2, h3, p {
+    text-align: center;
+    margin-bottom: 0;
+}
+.streaming p{
+    font-size: 20px;
+    width: 90%;
+}
+.streaming__boton{
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 4px;
+    width: 20%;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background: #b70e21;
+
+
+}
+.streaming__boton:hover{
+    background: #d63031;
+    color: #000;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+.streaming__img{
+    height: 450px;
+    padding: 2rem;
+
+}
+.streaming__img2{
+    width: 50%;
+
+}
