@@ -33,7 +33,7 @@
             display: block!important;
         }
         .imagen{
-            height: 400px;
+            height: 450px;
         }
         .seccion{
             margin-left: 0;
@@ -51,24 +51,23 @@
         }
 
     /* Entrenamientos */
-
+        .section1__titulo {
+            padding: 0;
+        }
         .grid__section1{
             grid-template-columns: repeat(1,1fr);
         }
         .grid__div{
             justify-self: center;
-            margin-bottom: 1rem;
             margin-left: 0;
+            margin-bottom: 0.5rem;
         }
         .div__titulo{
             width: 100%;
         }
-        .div__parrafo{
-            margin-left: 5%;
-            margin-right: 5%;
-        }
         .div__span {
             padding-right: 2rem;
+            margin-bottom: 1rem;
         }
         .section2__tabla{
             width: 100%;

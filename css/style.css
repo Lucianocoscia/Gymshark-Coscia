@@ -237,24 +237,18 @@ ul .lista__enlace {
 .grid__section1 {
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 1rem;
   background-color: Black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  gap: 1rem;
 }
 
 .grid__div {
   text-align: center;
-  margin-top: 1rem;
   margin-left: 0;
-  padding: 2.5rem;
+  padding: 2rem;
+  padding-bottom: 0;
   transition: transform .8s;
-}
-
-.grid__div:hover {
-  transform: scale(1.03);
 }
 
 .div__titulo, .div__titulo-1, .div__titulo-2, .div__titulo-3, .div__titulo-4, .div__titulo-5, .div__titulo-6, .div__titulo-7, .div__titulo-8 {
@@ -309,16 +303,20 @@ ul .lista__enlace {
   text-align: center;
   font-size: 20px;
   line-height: 1.5;
+  text-justify: auto;
+  text-align: justify;
 }
 
 .div__span {
   text-align: center;
   font-size: 18px;
+  text-justify: inter-word;
 }
 
 /* Comienzo de seccion dos de entrenamientos */
 .section2 {
   background-color: Black;
+  margin-top: 1rem;
   min-height: 500px;
   margin-left: 10%;
   margin-right: 10%;
@@ -900,7 +898,7 @@ a:hover {
     display: block !important;
   }
   .imagen {
-    height: 400px;
+    height: 450px;
   }
   .seccion {
     margin-left: 0;
@@ -917,23 +915,23 @@ a:hover {
     width: 32%;
   }
   /* Entrenamientos */
+  .section1__titulo {
+    padding: 0;
+  }
   .grid__section1 {
     grid-template-columns: repeat(1, 1fr);
   }
   .grid__div {
     justify-self: center;
-    margin-bottom: 1rem;
     margin-left: 0;
+    margin-bottom: 0.5rem;
   }
   .div__titulo, .div__titulo-1, .div__titulo-2, .div__titulo-3, .div__titulo-4, .div__titulo-5, .div__titulo-6, .div__titulo-7, .div__titulo-8 {
     width: 100%;
   }
-  .div__parrafo {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
   .div__span {
     padding-right: 2rem;
+    margin-bottom: 1rem;
   }
   .section2__tabla {
     width: 100%;
@@ -1052,8 +1050,9 @@ a:hover {
   }
   /* Inicio */
   .imagen {
-    height: 350px;
+    height: 500px;
     background: linear-gradient(90deg, #1e1e1e, #1e1e1e);
+    object-fit: cover;
     opacity: 0.8;
   }
   .titulo__carrusel {
@@ -1095,18 +1094,13 @@ a:hover {
   }
   .grid__div {
     justify-self: center;
-    margin-bottom: 1rem;
     margin-left: 0;
-    margin-top: 1rem;
     width: 100%;
-    gap: 1rem;
   }
   .div__titulo, .div__titulo-1, .div__titulo-2, .div__titulo-3, .div__titulo-4, .div__titulo-5, .div__titulo-6, .div__titulo-7, .div__titulo-8 {
     width: 100%;
   }
   .div__parrafo {
-    margin-left: 5%;
-    margin-right: 5%;
     font-size: 18px;
   }
   .div__span {

@@ -84,9 +84,9 @@
     /* Inicio */
 
         .imagen{
-            height: 350px;
+            height: 500px;
             background: linear-gradient(90deg, #1e1e1e , #1e1e1e   );
-        
+            object-fit: cover;
             opacity: 0.8;
         }
         .titulo__carrusel{
@@ -130,18 +130,13 @@
         }
         .grid__div{
             justify-self: center;
-            margin-bottom: 1rem;
             margin-left: 0;
-            margin-top: 1rem;
             width: 100%;
-            gap: 1rem;
         }
         .div__titulo{
             width: 100%;
         }
         .div__parrafo{
-            margin-left: 5%;
-            margin-right: 5%;
             font-size: 18px;
         }
         .div__span {
