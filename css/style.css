@@ -19,7 +19,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #b70e21;
+  background-color: #686260;
   border-radius: 2px;
 }
 
@@ -147,12 +147,11 @@ ul .lista__enlace {
 
 /* Inicio */
 .seccion {
-  margin-bottom: 5rem;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 2rem;
   width: 90%;
-  min-height: 450px;
+  min-height: 500px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -769,7 +768,7 @@ iframe {
 
 /* Modificando estilos bootstrap */
 .presentacion {
-  height: 590px;
+  height: 620px;
 }
 
 .imagen {
@@ -849,6 +848,7 @@ dl, ol, ul {
 
 .accordion-body {
   font-size: 20px;
+  text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -886,19 +886,17 @@ a:hover {
   /* Inicio */
   .imagen {
     background: linear-gradient(90deg, #1e1e1e, #1e1e1e);
+    height: 500px;
     opacity: 0.8;
   }
   h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .presentacion {
-    height: auto;
+    height: 460px;
   }
   .d-none {
     display: block !important;
-  }
-  .imagen {
-    height: 450px;
   }
   .seccion {
     margin-left: 0;
@@ -913,6 +911,9 @@ a:hover {
   }
   .seccion__unidades-3 {
     width: 32%;
+  }
+  .unidad__titulo {
+    font-size: 35px;
   }
   /* Entrenamientos */
   .section1__titulo {
@@ -948,10 +949,10 @@ a:hover {
   /* Nutricion */
   .section1__nutricion {
     background-attachment: inherit;
-    height: 450px;
+    height: 460px;
   }
   .section1__nutricion::before {
-    height: 450px;
+    height: 460px;
   }
   .section1__nutricion__titulo {
     font-size: 64px;
@@ -1050,10 +1051,13 @@ a:hover {
   }
   /* Inicio */
   .imagen {
-    height: 500px;
+    height: 550px;
     background: linear-gradient(90deg, #1e1e1e, #1e1e1e);
     object-fit: cover;
     opacity: 0.8;
+  }
+  .presentacion {
+    height: 540px;
   }
   .titulo__carrusel {
     font-size: 26px;
@@ -1145,11 +1149,11 @@ a:hover {
   }
   /* Nutricion */
   .section1__nutricion {
-    height: 500px;
+    height: 550px;
     background-position: top;
   }
   .section1__nutricion::before {
-    height: 500px;
+    height: 550px;
   }
   .section1__nutricion__titulo {
     font-size: 50px;

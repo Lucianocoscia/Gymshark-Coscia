@@ -1,13 +1,12 @@
 /* Inicio */
 
 .seccion{
-    margin-bottom: 5rem;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2rem;
     
     width: 90%;
-    min-height: 450px;
+    min-height: 500px;
     
     @include generarFlex(row, space-around, center);
     
