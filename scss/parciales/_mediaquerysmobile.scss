@@ -84,17 +84,20 @@
     /* Inicio */
 
         .imagen{
-            height: 550px;
+            height: 100%;
             background: linear-gradient(90deg, #1e1e1e , #1e1e1e   );
             object-fit: cover;
             opacity: 0.8;
+
         }
+
         .presentacion {
-            height: 540px;
+            height: 550px;
         }
         .titulo__carrusel{
             font-size: 26px;
         }
+
         .d-none {
             display: block!important;
         }
