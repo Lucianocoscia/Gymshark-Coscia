@@ -31,11 +31,12 @@
             &__item{
                 margin-left: 0;
     
-                %--close{
+                &--close{
                     display: block;
                 }
             }
         }
+
         #lateral {
             display: block;
             background-color: rgba(0, 0, 0, 0.8);
@@ -190,11 +191,11 @@
     /* Nutricion */
 
         .section1__nutricion{
-            height: 550px;
+            height: 80vh;
             background-position: top;
 
             &::before{
-                height: 550px;
+                height: 80vh;
             }
             &__titulo{
                 font-size: 50px;
