@@ -4,7 +4,7 @@
     /* Header */
         .header{
             flex-direction: row;
-
+            height: 20vh;
             &__emoji{
                 display: block;
                 font-size: 4rem;
@@ -92,7 +92,7 @@
         }
 
         .presentacion {
-            height: 550px;
+            height: 80vh;
         }
         .titulo__carrusel{
             font-size: 26px;

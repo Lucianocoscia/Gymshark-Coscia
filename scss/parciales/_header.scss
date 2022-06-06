@@ -4,6 +4,7 @@
     background-color: $BackgroundColor;
     padding: map-get($estilos, padding );
     width: 100%;
+    height: 15vh;
 
     @include generarFlex(row, space-between, center);
 

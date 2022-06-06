@@ -33,6 +33,7 @@ body::-webkit-scrollbar-thumb {
   background-color: Black;
   padding: 1rem;
   width: 100%;
+  height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -397,6 +398,7 @@ table {
   text-align: center;
   padding: 0.5rem;
   border-radius: 4px;
+  color: #fff;
   margin-bottom: 1rem;
   margin-top: 1rem;
   background: #b70e21;
@@ -407,6 +409,7 @@ table {
   color: #000;
   transition: background-color 1s ease-out;
   outline: 0;
+  text-decoration: none;
 }
 
 .streaming_div2 {
@@ -768,7 +771,7 @@ iframe {
 
 /* Modificando estilos bootstrap */
 .presentacion {
-  height: 620px;
+  height: 85vh;
 }
 
 .imagen {
@@ -873,6 +876,7 @@ a:hover {
   /* Header */
   .header {
     flex-direction: column;
+    height: 30vh;
   }
   .header__emoji {
     display: none;
@@ -990,6 +994,7 @@ a:hover {
   /* Header */
   .header {
     flex-direction: row;
+    height: 20vh;
   }
   .header__emoji {
     display: block;
@@ -1057,7 +1062,7 @@ a:hover {
     opacity: 0.8;
   }
   .presentacion {
-    height: 550px;
+    height: 80vh;
   }
   .titulo__carrusel {
     font-size: 26px;
