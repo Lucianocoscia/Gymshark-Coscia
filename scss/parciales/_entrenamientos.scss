@@ -194,6 +194,7 @@ table {
         text-align: center;
         padding: 0.5rem;
         border-radius: 4px;
+        color: $Color-LetraPrincipal;
 
         margin-bottom: 1rem;
         margin-top: 1rem;
@@ -203,6 +204,7 @@ table {
             color: #000;
             transition: background-color 1s ease-out;
             outline: 0;
+            text-decoration: none;
         }
     }
 }
