@@ -7,7 +7,7 @@ body{
     font-family:'Bebas Neue', cursive ;
     background-color: rgb(12, 9, 4) ;
     color: white;
-    overflow-x: hidden;
+
 
     &::-webkit-scrollbar{
         width: 8px;
@@ -23,5 +23,8 @@ body{
     background-color: $BackgroundColor ;
 }
 
-
+main {
+    width: 100vw ;
+    overflow-x: hidden;
+}
 
