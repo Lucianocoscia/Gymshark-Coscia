@@ -27,6 +27,10 @@ body::-webkit-scrollbar-thumb {
   background-color: Black;
 }
 
+main {
+  overflow: hidden;
+}
+
 /* Header */
 .header {
   margin-top: 0;
